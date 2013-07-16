@@ -6,6 +6,5 @@ twitter bootstrap
 css
 
 todo:
-push wo username
-tutorial on youtube
+git tutorial on youtube
 
