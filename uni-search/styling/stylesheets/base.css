@@ -62,38 +62,3 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
-
-/* line 3, ../sass/screen.scss */
-.result_item {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  border-radius: 8px;
-  *zoom: 1;
-  -webkit-box-shadow: 0px 0px 5px red;
-  -moz-box-shadow: 0px 0px 5px red;
-  box-shadow: 0px 0px 5px red;
-  padding: 5px;
-  margin: 10px;
-  border: 2px solid;
-  border-color: gray;
-}
-/* line 38, ../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.result_item:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 12, ../sass/screen.scss */
-.span4 {
-  text-align: center;
-  padding: 10px;
-  font-size: 30;
-  font-family: arial;
-}
-/* line 17, ../sass/screen.scss */
-.span4 .result_item {
-  font-size: 15;
-}
