@@ -1,0 +1,20 @@
+@import 'base';
+
+	.result_item{
+		@include border-radius(8px);
+		@include pie-clearfix;
+		@include box-shadow;
+		padding:5px;
+		margin:10px;
+		border:2px solid;
+		border-color: gray;
+		}
+	.span4{
+		text-align: center;
+		padding:10px;
+		font-size:30;
+		font-family: arial;
+		.result_item{
+			font-size:15;
+		}
+	}

@@ -12,12 +12,11 @@ $.ajax({
 dataType:'jsonp',
 url:  "http://nerdeez-server-dev.herokuapp.com/api/v1/university/?format=jsonp",
 success: function(data) {
-	$('#search_results').html(text);
 	var len = data.objects.length;
 	var text ='';
     for(var i=0;i<len;i++){
      	var obj= data.objects[i].description;
-     	if(obj.toLowerCase().contains(search_term.toLowerCase()))
+     	if(obj.toLowerCase().indexOf(search_term.toLowerCase())>-1)
      	{
             if (!(data.objects[i].image==null)){
                 text += "<div class='row'><div class='span4 result_item'>"
